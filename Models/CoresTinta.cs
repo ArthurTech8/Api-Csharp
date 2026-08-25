@@ -12,6 +12,6 @@ namespace WebApplication1.Models
         public decimal? Preco { get; set; }
         public int? Quantidade { get; set; }
         public string Cor { get; set; }
-        public string Peso { get; set; }
+        public string volume { get; set; }
     }
 }
