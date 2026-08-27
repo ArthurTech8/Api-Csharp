@@ -12,5 +12,7 @@ namespace WebApplication1.Data
 
         public DbSet<CoresTinta> CoresTinta { get; set; }
         public DbSet<Clientes> Clientes { get; set; }
+        public DbSet<Ligacao_Pedidos> Ligacao_Pedidos { get; set; }
+
     }
 } 
